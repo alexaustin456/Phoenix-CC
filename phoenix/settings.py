@@ -25,7 +25,7 @@ SECRET_KEY = 's@zv02%ty#0g(y+qgt7*dy*(j0qny3u(4bv!5bk(!#=5c5@5(_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["phoenix-cc.herokuapp.com"]
 
 if DEBUG:
     ALLOWED_HOSTS.append('localhost')
