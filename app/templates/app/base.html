@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static %}
+{% load staticfiles %}
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -26,14 +26,15 @@
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+
 {% block content %}
 {% endblock %}
+
 <footer class="page-footer teal">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="white-text">Based in Southampton</h5>
-
             </div>
             <div class="col l3 s12">
                 <a href="results" class="white-text">Results</a>
