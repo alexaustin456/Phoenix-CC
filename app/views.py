@@ -21,3 +21,7 @@ def results(request):
     context = {}
     return render(request, 'app/results.html', context)
 
+
+def fixtures(request):
+    context = {}
+    return render(request, 'app/fixtures.html', context)
